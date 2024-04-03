@@ -1,0 +1,382 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: Main rgb(112, 112, 112);
+}
+body{
+    background: rgb(214, 213, 213);
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+ion-icon{
+    color:#181717;
+    padding-top: 90px;
+    font-size: 40px;
+}
+
+
+
+.link a {
+    text-decoration: none;
+    width: 104.16px;
+    height: 20px;
+    top: 13px;
+    left: 906.71px;
+font-family: DM Sans;
+font-size: 21px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: -0.03em;
+text-align: left;
+color:#181717;
+padding-left: 25px;
+}
+
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header{
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    padding: 40px 0;
+    backdrop-filter: blur(10px);
+}
+
+/* 2section */
+
+#mekhmet {
+    padding: 100px 0;
+}
+
+.mekhmet{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+
+.mekhmet h1{
+width: 360px;
+font-family: DM Sans;
+font-size: 60px;
+font-weight: 500;
+line-height: 58px;
+letter-spacing: -0.03em;
+color:aqua;
+    animation: div 9s infinite alternate;
+}
+
+@keyframes div{
+    from{
+        color:aqua;
+    }
+    
+    to{
+        color:blueviolet;
+    }
+}
+
+
+.text p{
+padding-top: 50px;
+width: 580px;
+font-family: DM Sans;
+font-size: 32px;
+font-weight: 400;
+line-height: 37px;
+color:#606060;
+}
+
+.nike{
+    align-items:center;
+}
+
+/* 2section */
+
+#emirat{
+ padding: 100px 0;
+
+}
+
+.emirat h4{
+ padding: 34px 0 34px 0;
+ font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.87px;
+color: #181717;
+
+}
+
+.emirat h5{
+    padding: 28px 0 28px 0;
+    font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.87px;
+letter-spacing: -0.03em;
+text-align: left;
+ color: #181717;
+
+}
+
+.emirat p{
+    padding: 19px 0 19px 0;
+}
+a{
+    color:#181717;
+    padding: 100px 0;
+}
+
+
+.emirat h3{
+    padding: 100px 0;
+    text-decoration-line: underline;
+    
+
+
+}
+
+
+.block{
+    width: 640px;
+    height: 364px;
+    background-color: #606060;
+    transform: scale(1 );
+    animation: block 2s infinite alternate;
+} 
+
+@keyframes block{
+    from{
+        transform: scale(1);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+
+.emirat-rod{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link-lin{
+    width: 100%;
+    height: 2px;
+    background-color: #181717;
+}
+
+
+
+
+/* section 3 */
+
+
+#pero{
+    padding: 100px 0;
+}
+
+.pero {
+    padding-right: 100px;
+}
+
+.pero h4{
+padding: 0 0 34px 0;
+}
+
+.pero h5{
+    padding: 0 0 228px 0;
+}
+
+
+.pero h3{
+    padding: 0 0 0 0 ;
+    text-decoration: underline;
+}
+
+.klop{
+  width: 640px;
+  height: 364px;
+  background-color: #606060;
+  transform: rotate(0deg);
+  animation: klop 2s linear infinite;
+}
+
+@keyframes klop{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+.pero-general{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+
+
+.leri{
+    width: 100%;
+    height: 2px;
+    background-color:black;
+    margin: 100px 0 0 0 ;
+}
+
+/* section 4 */
+
+.school-text h4{
+font-size: 18px;
+font-weight: 500;
+color: #181717;
+
+}
+
+.school-text p{
+font-size: 18px;
+font-weight: 400;
+color: #181717;
+
+
+}
+
+.school-text h3{
+font-size: 18px;
+font-weight: 500;
+color:  black;
+
+text-decoration: underline;
+
+}
+
+.school-text h4{
+    padding: 0 0 34px 0;
+}
+
+.school-text p{
+    padding: 0 0 33px 0;
+}
+
+.school-text h3{
+    padding:  238px 0 0;
+}
+
+.luna{
+    width: 640px;
+    height: 364px;
+    background-color: #606060;
+    opacity: 0;
+    animation: luna 2s ease-in forwards;    
+}
+
+.linya{
+    width: 100%;
+    height: 2px;
+    background-color:black;
+    margin: 100px 0;
+}
+
+
+
+@keyframes luna{
+    from{
+        opacity: 0;
+      }
+      to{ 
+        opacity: 1;
+      }
+}
+
+
+
+
+.school{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+
+/* footer */
+
+
+.alt{
+    width: 270.82px;
+height: 20px;
+gap: 0px;
+opacity: 0px;
+font-family: DM Sans;
+font-size: 21px;
+font-weight: 500;
+color:#2429AF;
+text-decoration-line: none;
+}
+
+@keyframes footer-text{
+    from{
+        transform: translateX(0);
+    }
+
+    to{
+        transform: translateX(100px);
+    }
+}
+
+
+
+
+
+.footer-logo a{
+font-family: DM Sans;
+font-size: 21px;
+font-weight: 500;
+color:#181717;
+text-decoration-line: none;
+width: 98.21px;
+height: 20px;
+left: 790.65px;
+gap: 0px;
+opacity: 0px;
+padding: 15px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-text{
+    transform: translateX(0);
+    animation: footer-text   2s infinite alternate;
+    
+}
+
+
+    
+    
+
+
